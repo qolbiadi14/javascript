@@ -53,3 +53,7 @@ console.log(dec);
 console.log((5 ** 2) + 3 - 1 * 2 / 2 + "0");
 console.log((12 / 2) ** (1 + 1));
 console.log(("12" + "2") ** ("2" - "1"));
+
+
+let coba = (1 - 2, 2 + 1);
+console.log(coba);

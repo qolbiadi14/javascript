@@ -28,8 +28,8 @@ for (let i = 1; i < 10; i = i+2) {
 console.log("------------------------");
 
 for (let a = 0; a < 5; a++) {
-    console.log(" ");
-    for (let b = 5; a > b; b++) {
-        console.log("*");
+    console.log("*");
+    for (let b = 0; b < a; b++) {
+        console.log("#");
     }
 }

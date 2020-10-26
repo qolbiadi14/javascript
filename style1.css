@@ -1,0 +1,52 @@
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  margin: auto;
+  width: 30%;
+  border: 3px solid aqua;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn-angka {
+  margin: 5px 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.btn-angka button {
+  background-color: white;
+  color: black;
+  border: 2px solid tomato;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-mat {
+  margin: 5px 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.btn-mat button {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+input[type="number"] {
+  width: 100%;
+  font-size: 25px;
+  border: none;
+  border-bottom: 2px solid red;
+}

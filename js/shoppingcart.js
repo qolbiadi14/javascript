@@ -35,9 +35,15 @@ let cart = [];
 for (let index = 0; index < btnbeli.length; index++) {
     btnbeli[index].onclick = function () {
         // console.log(btnbeli[index].dataset["idmenu"]);
-        cart.push(btnbeli[index].dataset["idmenu"])
+        //cart.push(btnbeli[index].dataset["idmenu"]);
+      tblmenu.filter(function (a) {
+        if (a.idmenu == btnbeli[index].dataset["idmenu"] ) {
+          cart.push(a);
+          console.log(cart);
+        }
+        })
     };
 }
 
-console.log(cart);
+//console.log(cart);
 

@@ -1,0 +1,29 @@
+[
+    {
+    "idmenu": 1,
+    "idkategori": 1,
+    "menu": "Apel Malang",
+    "harga": 5000,
+    "warna": ["merah", "kuning", "hijau"],
+    "stok": true,
+    "keterangan" : null
+    },
+    {
+    "idmenu": 1,
+    "idkategori": 1,
+    "menu": "Pisang",
+    "harga": 10000,
+    "warna": ["kuning", "hijau"],
+    "stok": true,
+    "keterangan" : null
+    },
+    {
+        "idmenu": 1,
+        "idkategori": 1,
+        "menu": "Jambu",
+        "harga": 10000,
+        "warna": ["kuning", "hijau"],
+        "stok": true,
+        "keterangan" : null
+    }
+]
